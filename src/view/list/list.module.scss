@@ -1,0 +1,28 @@
+.cards-list {
+  min-width: 67rem;
+  background: oldlace;
+  height: 75vh;
+  border-radius: 0.4rem;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  box-shadow: 0 0.2rem 0.8rem DimGrey;
+}
+
+.card-item {
+  &:nth-child(even) {
+    background: honeydew;
+  }
+
+  &:nth-child(odd) {
+    background: white;
+  }
+}
+
+.list-title {
+  padding: 1.4rem;
+  font-family: "Expletus Sans";
+  font-size: 3.2rem;
+  font-weight: 400;
+  text-align: center;
+  color: slategray;
+} 

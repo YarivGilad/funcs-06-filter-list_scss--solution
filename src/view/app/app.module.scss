@@ -1,0 +1,28 @@
+.app {
+    background: Cornsilk;
+    padding: 10.5rem 1.5rem 1.5rem;
+    border-radius: 0.4rem;
+    box-shadow: 0 0.4rem 1.5rem DimGrey;
+    position: relative;
+    /* margin-top: 7rem; */
+    min-width: 60rem;
+    min-height: 45rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1.loading,
+h1.error-msg {
+    font-size: 5rem;
+    font-weight: normal;
+    font-family: "Griffy", cursive;
+    text-align: center;
+    color: darkslateblue;
+    margin-top: -10rem;
+}
+
+h1.error-msg {
+    font-family: "Expletus Sans";
+}

@@ -1,0 +1,49 @@
+.card {
+  padding: 2rem 2.8rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    background: paleturquoise;
+  }
+
+  &:hover .thumb {
+    box-shadow: 0 0.4rem 1.5rem DimGrey;
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  &:active {
+    background: skyblue;
+    color: white;
+  }
+
+  &:active .paragraph {
+    color: white;
+  }
+}
+
+.texts-box {
+  padding-left: 2.8rem;
+}
+
+.card-title {
+  font-family: "Expletus Sans";
+  text-align: left;
+  font-size: 2.8rem;
+}
+
+.card-msg {
+  font-family: "Raleway";
+  font-size: 1.4rem;
+  max-width: 35rem;
+}
+
+.paragraph {
+  font-size: 3.8rem;
+  font-weight: 400;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-align: center;
+  color: slategray;
+} 

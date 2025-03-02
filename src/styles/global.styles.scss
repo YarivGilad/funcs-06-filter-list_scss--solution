@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Expletus+Sans|Raleway|Griffy|Yanone+Kaffeesatz:400,700");
+
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 10px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: papayawhip;
+  background: -moz-linear-gradient(
+    top,
+    #f5f5dc 0%,
+    #d2b48c 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #f5f5dc 0%,
+    #d2b48c 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #f5f5dc 0%,
+    #d2b48c 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*border:aqua dashed 3px; */
+  /*color:papayawhip*/
+}
+li {
+  list-style-type: none;
+}
+/*--------------------*/
+
+.headline {
+  font-size: 5rem;
+  font-weight: normal;
+  font-family: "Griffy", cursive;
+  text-align: center;
+  color: slategray;
+}
+.white-text {
+  color: mintcream;
+}
+/*Generic CSS Classes*/
+.cap {
+  text-transform: capitalize;
+}
+.mb20 {
+  margin-bottom: 2rem;
+}
+.mt20 {
+  margin-top: 2rem;
+}
+.fz35 {
+  font-size: 3.5rem;
+}
+.fz30 {
+  font-size: 3rem;
+}
+.fz25 {
+  font-size: 2.5rem;
+}
+
+.hbox {
+  display: flex;
+}
+.vbox {
+  display: flex;
+  flex-direction: column;
+}
+.space-between,
+.sb {
+  justify-content: space-between;
+}
+.space-around,
+.sa {
+  justify-content: space-around;
+}
+.align-items-center,
+.ai-center,
+.aic {
+  align-items: center;
+}
+.align-items-start,
+.ai-start,
+.ais {
+  align-items: flex-start;
+}
+.grow-1,
+.g1 {
+  flex-grow: 1;
+}
+.text-left,
+.tl {
+  text-align: left;
+}
+.dev {
+  border: fuchsia 2px dashed;
+}
